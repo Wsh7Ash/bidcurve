@@ -1,0 +1,15 @@
+bidcurve order book
+==============================================
+trades: 2
+  5 @ 100   <-  (orders 2/1)
+  2 @ 104   <-  (orders 4/3)
+best bid: 105
+best ask: -
+resting: 1 bid(s), 0 ask(s)
+
+bidcurve simulation
+==============================================
+seed=11 ticks=8
+trades=53 volume=75 avg_price=10418.27
+total surplus=47589
+price series: 10557.7, 10545.62, 10453.33, 10502.57, 10330.3, 10414.75, 10264.25, 10143.86

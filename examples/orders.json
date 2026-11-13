@@ -1,0 +1,8 @@
+{
+  "orders": [
+    { "order_id": 1, "side": "sell", "price": 100, "quantity": 5, "agent": "s1" },
+    { "order_id": 2, "side": "sell", "price": 104, "quantity": 2, "agent": "s2" },
+    { "order_id": 3, "side": "buy", "price": 99, "quantity": 4, "agent": "b1" },
+    { "order_id": 4, "side": "buy", "price": 105, "quantity": 3, "agent": "b2" }
+  ]
+}

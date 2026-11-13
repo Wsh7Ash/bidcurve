@@ -1,0 +1,9 @@
+$ <workspace>/.factory-venv/Scripts/python.exe -m pip install -e . pytest --quiet
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+$ <workspace>/.factory-venv/Scripts/python.exe -m pytest tests -q
+.........                                                                [100%]
+9 passed in 0.08s
+$ bash -c bidcurve demo > results/demo.txt
+$ bash -c bidcurve match examples/orders.json --json > results/book.json

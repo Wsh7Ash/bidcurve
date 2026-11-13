@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bidcurve"
+version = "1.0.0"
+description = "Deterministic continuous double-auction matching and agent-based market simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["auction", "market", "simulation", "matching-engine"]
+dependencies = []
+
+[project.scripts]
+bidcurve = "bidcurve.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

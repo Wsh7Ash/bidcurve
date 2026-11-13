@@ -1,0 +1,14 @@
+{
+  "trades": [
+    {
+      "price": 100,
+      "quantity": 3,
+      "buy_order": 4,
+      "sell_order": 1,
+      "buyer": "b2",
+      "seller": "s1"
+    }
+  ],
+  "best_bid": 99,
+  "best_ask": 100
+}
